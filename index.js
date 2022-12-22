@@ -7,14 +7,11 @@ class Worker {
     }
 
     getSalary() {
-        salary = Number(rate) * Number(days);
-        console.log(salary);
+        let salary = this.rate * this.days;
+        return salary;
     }
 }
 
 let worker = new Worker('Иван', 'Иванов', 10, 31);
-console.log(worker.name);
-console.log(worker.surname);
-console.log(worker.rate);
-console.log(worker.days);
-console.log(worker.getSalary());
+
+let artist = new Worker('Лилия', 'Чертовских', 50, 29);

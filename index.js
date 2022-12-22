@@ -13,5 +13,4 @@ class Worker {
 }
 
 let worker = new Worker('Иван', 'Иванов', 10, 31);
-
 let artist = new Worker('Лилия', 'Чертовских', 50, 29);
